@@ -1,0 +1,324 @@
+{
+	"info": {
+		"_postman_id": "3979a067-0e4f-45e3-90b1-e1db097e3e6a",
+		"name": "JwtExample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "home/users",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbmtpdCIsImlhdCI6MTY4ODY3MDg0OCwiZXhwIjoxNjg4Njg4ODQ4fQ.CkxWseDz5RUbmCyff8sh6RA5KGemnC2nXhJs_XZCO4uwz1gf0B5k7YhHDiJCgnWwHcLI8UBxc4gFc4ht3hccVg",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8081/home/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"home",
+						"users"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "home/users",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbmtpdCIsImlhdCI6MTY4ODY3MDg0OCwiZXhwIjoxNjg4Njg4ODQ4fQ.CkxWseDz5RUbmCyff8sh6RA5KGemnC2nXhJs_XZCO4uwz1gf0B5k7YhHDiJCgnWwHcLI8UBxc4gFc4ht3hccVg",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8081/home/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"home",
+								"users"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 06 Jul 2023 19:15:20 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"userId\": \"95af2582-5b6f-4529-8fd6-f43a2c9a4d76\",\n        \"name\": \"Ankit Gond\",\n        \"email\": \"ankit@gmail.com\"\n    },\n    {\n        \"userId\": \"7dad463e-4546-4a6c-b9e9-3b2c6136f040\",\n        \"name\": \"Rahul Lata\",\n        \"email\": \"rahul@gmail.com\"\n    },\n    {\n        \"userId\": \"80fa43a9-882c-4293-8f6a-b1ee640e3836\",\n        \"name\": \"Ram Avadh\",\n        \"email\": \"Ram@gmail.com\"\n    },\n    {\n        \"userId\": \"4735e4e7-5356-4e3f-a4ec-d1cb12a5b525\",\n        \"name\": \"Aman Gupta\",\n        \"email\": \"aman@gmail.com\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "home/users Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbmtpdCIsImlhdCI6MTY4ODY3MDg0OCwiZXhwIjoxNjg4Njg4ODQ4fQ.CkxWseDz5RUbmCyff8sh6RA5KGemnC2nXhJs_XZCO4uwz1gf0B5k7YhHDiJCgnWwHcLI8UBxc4gFc4ht3hccVg",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8081/home/current-user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"home",
+						"current-user"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "home/users Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbmtpdCIsImlhdCI6MTY4ODY3MDg0OCwiZXhwIjoxNjg4Njg4ODQ4fQ.CkxWseDz5RUbmCyff8sh6RA5KGemnC2nXhJs_XZCO4uwz1gf0B5k7YhHDiJCgnWwHcLI8UBxc4gFc4ht3hccVg",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8081/home/current-user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"home",
+								"current-user"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 06 Jul 2023 19:15:14 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Ankit"
+				}
+			]
+		},
+		{
+			"name": "login JwtGenerator",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"Ankit\",\r\n    \"password\":\"Ankit\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8081/auth/login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"Ankit\",\r\n    \"password\":\"Ankit\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 06 Jul 2023 19:14:08 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"jwtToken\": \"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbmtpdCIsImlhdCI6MTY4ODY3MDg0OCwiZXhwIjoxNjg4Njg4ODQ4fQ.CkxWseDz5RUbmCyff8sh6RA5KGemnC2nXhJs_XZCO4uwz1gf0B5k7YhHDiJCgnWwHcLI8UBxc4gFc4ht3hccVg\",\n    \"username\": \"Ankit\"\n}"
+				}
+			]
+		}
+	]
+}
